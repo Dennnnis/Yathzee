@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dobbelstenen.cs" />
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -77,6 +79,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Achtergrond.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice-six-faces-five.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice-six-faces-four.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice-six-faces-one.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice-six-faces-six.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice-six-faces-three.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice-six-faces-two.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

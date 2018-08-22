@@ -128,7 +128,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button34 = new System.Windows.Forms.Button();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.DobbelsteenTimer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // label8
@@ -1286,9 +1286,10 @@
             this.button34.Text = "Een";
             this.button34.UseVisualStyleBackColor = true;
             // 
-            // timer1
+            // DobbelsteenTimer
             // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.DobbelsteenTimer.Interval = 50;
+            this.DobbelsteenTimer.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Game
             // 
@@ -1510,6 +1511,6 @@
         public System.Windows.Forms.Label label9;
         public System.Windows.Forms.Label label1;
         public System.Windows.Forms.Button button34;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer DobbelsteenTimer;
     }
 }

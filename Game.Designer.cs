@@ -130,6 +130,7 @@
             this.Activate_One = new System.Windows.Forms.Button();
             this.DobbelsteenTimer = new System.Windows.Forms.Timer(this.components);
             this.label5 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label8
@@ -1195,9 +1196,9 @@
             this.label2.Location = new System.Drawing.Point(362, 371);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 18);
+            this.label2.Size = new System.Drawing.Size(33, 18);
             this.label2.TabIndex = 237;
-            this.label2.Text = "Speler 3";
+            this.label2.Text = "Nvt";
             // 
             // label3
             // 
@@ -1206,9 +1207,9 @@
             this.label3.Location = new System.Drawing.Point(464, 371);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 18);
+            this.label3.Size = new System.Drawing.Size(33, 18);
             this.label3.TabIndex = 236;
-            this.label3.Text = "Speler 4";
+            this.label3.Text = "Nvt";
             // 
             // label4
             // 
@@ -1217,9 +1218,9 @@
             this.label4.Location = new System.Drawing.Point(252, 371);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 18);
+            this.label4.Size = new System.Drawing.Size(33, 18);
             this.label4.TabIndex = 235;
-            this.label4.Text = "Speler 2";
+            this.label4.Text = "Nvt";
             // 
             // label12
             // 
@@ -1228,9 +1229,9 @@
             this.label12.Location = new System.Drawing.Point(140, 371);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(67, 18);
+            this.label12.Size = new System.Drawing.Size(33, 18);
             this.label12.TabIndex = 234;
-            this.label12.Text = "Speler 1";
+            this.label12.Text = "Nvt";
             // 
             // label11
             // 
@@ -1239,9 +1240,9 @@
             this.label11.Location = new System.Drawing.Point(362, 64);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(67, 18);
+            this.label11.Size = new System.Drawing.Size(33, 18);
             this.label11.TabIndex = 233;
-            this.label11.Text = "Speler 3";
+            this.label11.Text = "Nvt";
             // 
             // label10
             // 
@@ -1250,9 +1251,9 @@
             this.label10.Location = new System.Drawing.Point(464, 64);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(67, 18);
+            this.label10.Size = new System.Drawing.Size(33, 18);
             this.label10.TabIndex = 232;
-            this.label10.Text = "Speler 4";
+            this.label10.Text = "Nvt";
             // 
             // label9
             // 
@@ -1261,9 +1262,9 @@
             this.label9.Location = new System.Drawing.Point(252, 64);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(67, 18);
+            this.label9.Size = new System.Drawing.Size(33, 18);
             this.label9.TabIndex = 231;
-            this.label9.Text = "Speler 2";
+            this.label9.Text = "Nvt";
             // 
             // label1
             // 
@@ -1272,9 +1273,9 @@
             this.label1.Location = new System.Drawing.Point(140, 64);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 18);
+            this.label1.Size = new System.Drawing.Size(33, 18);
             this.label1.TabIndex = 230;
-            this.label1.Text = "Speler 1";
+            this.label1.Text = "Nvt";
             // 
             // Activate_One
             // 
@@ -1295,11 +1296,22 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(328, 19);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(6, 9);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.Size = new System.Drawing.Size(74, 42);
             this.label5.TabIndex = 329;
-            this.label5.Text = "label5";
+            this.label5.Text = "Nvt";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(610, 43);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(36, 39);
+            this.label13.TabIndex = 330;
+            this.label13.Text = "0";
             // 
             // Game
             // 
@@ -1308,6 +1320,7 @@
             this.BackgroundImage = global::Yathzee.Properties.Resources.Achtergrond;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(804, 764);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -1523,5 +1536,6 @@
         public System.Windows.Forms.Button Activate_One;
         private System.Windows.Forms.Timer DobbelsteenTimer;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label13;
     }
 }

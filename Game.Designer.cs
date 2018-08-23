@@ -31,47 +31,47 @@
             this.components = new System.ComponentModel.Container();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox61 = new System.Windows.Forms.TextBox();
-            this.textBox62 = new System.Windows.Forms.TextBox();
-            this.textBox63 = new System.Windows.Forms.TextBox();
-            this.textBox64 = new System.Windows.Forms.TextBox();
+            this._S2_Tot = new System.Windows.Forms.TextBox();
+            this._S3_Tot = new System.Windows.Forms.TextBox();
+            this._S4_Tot = new System.Windows.Forms.TextBox();
+            this._S1_Tot = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox51 = new System.Windows.Forms.TextBox();
-            this.textBox52 = new System.Windows.Forms.TextBox();
-            this.textBox53 = new System.Windows.Forms.TextBox();
-            this.textBox54 = new System.Windows.Forms.TextBox();
+            this._S2_Sub2 = new System.Windows.Forms.TextBox();
+            this._S3_Sub2 = new System.Windows.Forms.TextBox();
+            this._S4_Sub2 = new System.Windows.Forms.TextBox();
+            this._S1_Sub2 = new System.Windows.Forms.TextBox();
             this._S2_Sub = new System.Windows.Forms.TextBox();
             this._S3_Sub = new System.Windows.Forms.TextBox();
             this._S4_Sub = new System.Windows.Forms.TextBox();
             this._S1_Sub = new System.Windows.Forms.TextBox();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.textBox46 = new System.Windows.Forms.TextBox();
-            this.textBox47 = new System.Windows.Forms.TextBox();
-            this.textBox48 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.textBox42 = new System.Windows.Forms.TextBox();
-            this.textBox43 = new System.Windows.Forms.TextBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
+            this._S2_13 = new System.Windows.Forms.TextBox();
+            this._S3_13 = new System.Windows.Forms.TextBox();
+            this._S4_13 = new System.Windows.Forms.TextBox();
+            this._S1_13 = new System.Windows.Forms.TextBox();
+            this._S2_9 = new System.Windows.Forms.TextBox();
+            this._S2_10 = new System.Windows.Forms.TextBox();
+            this._S2_11 = new System.Windows.Forms.TextBox();
+            this._S2_12 = new System.Windows.Forms.TextBox();
+            this._S2_8 = new System.Windows.Forms.TextBox();
+            this._S2_7 = new System.Windows.Forms.TextBox();
+            this._S3_9 = new System.Windows.Forms.TextBox();
+            this._S3_10 = new System.Windows.Forms.TextBox();
+            this._S3_11 = new System.Windows.Forms.TextBox();
+            this._S3_12 = new System.Windows.Forms.TextBox();
+            this._S3_8 = new System.Windows.Forms.TextBox();
+            this._S3_7 = new System.Windows.Forms.TextBox();
+            this._S4_9 = new System.Windows.Forms.TextBox();
+            this._S4_10 = new System.Windows.Forms.TextBox();
+            this._S4_11 = new System.Windows.Forms.TextBox();
+            this._S4_12 = new System.Windows.Forms.TextBox();
+            this._S4_8 = new System.Windows.Forms.TextBox();
+            this._S4_7 = new System.Windows.Forms.TextBox();
+            this._S1_9 = new System.Windows.Forms.TextBox();
+            this._S1_10 = new System.Windows.Forms.TextBox();
+            this._S1_11 = new System.Windows.Forms.TextBox();
+            this._S1_12 = new System.Windows.Forms.TextBox();
+            this._S1_8 = new System.Windows.Forms.TextBox();
+            this._S1_7 = new System.Windows.Forms.TextBox();
             this._S2_3 = new System.Windows.Forms.TextBox();
             this._S2_4 = new System.Windows.Forms.TextBox();
             this._S2_5 = new System.Windows.Forms.TextBox();
@@ -107,13 +107,13 @@
             this.button65 = new System.Windows.Forms.Button();
             this.button40 = new System.Windows.Forms.Button();
             this.button38 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
-            this.button36 = new System.Windows.Forms.Button();
+            this.Activate_Yahtzee = new System.Windows.Forms.Button();
+            this.Activate_Carré = new System.Windows.Forms.Button();
+            this.Activate_FullHouse = new System.Windows.Forms.Button();
+            this.Activate_KleineStraat = new System.Windows.Forms.Button();
+            this.Activate_GroteStraat = new System.Windows.Forms.Button();
+            this.Activate_Chance = new System.Windows.Forms.Button();
+            this.Activate_TOAK = new System.Windows.Forms.Button();
             this.Activate_Two = new System.Windows.Forms.Button();
             this.Activate_Three = new System.Windows.Forms.Button();
             this.Activate_Four = new System.Windows.Forms.Button();
@@ -129,6 +129,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.Activate_One = new System.Windows.Forms.Button();
             this.DobbelsteenTimer = new System.Windows.Forms.Timer(this.components);
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label8
@@ -153,53 +154,53 @@
             this.label7.TabIndex = 327;
             this.label7.Text = "Totaal:";
             // 
-            // textBox61
+            // _S2_Tot
             // 
-            this.textBox61.BackColor = System.Drawing.Color.White;
-            this.textBox61.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox61.Location = new System.Drawing.Point(254, 703);
-            this.textBox61.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox61.Name = "textBox61";
-            this.textBox61.ReadOnly = true;
-            this.textBox61.Size = new System.Drawing.Size(64, 30);
-            this.textBox61.TabIndex = 326;
-            this.textBox61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S2_Tot.BackColor = System.Drawing.Color.White;
+            this._S2_Tot.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S2_Tot.Location = new System.Drawing.Point(254, 703);
+            this._S2_Tot.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S2_Tot.Name = "_S2_Tot";
+            this._S2_Tot.ReadOnly = true;
+            this._S2_Tot.Size = new System.Drawing.Size(64, 30);
+            this._S2_Tot.TabIndex = 326;
+            this._S2_Tot.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox62
+            // _S3_Tot
             // 
-            this.textBox62.BackColor = System.Drawing.Color.White;
-            this.textBox62.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox62.Location = new System.Drawing.Point(365, 703);
-            this.textBox62.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox62.Name = "textBox62";
-            this.textBox62.ReadOnly = true;
-            this.textBox62.Size = new System.Drawing.Size(64, 30);
-            this.textBox62.TabIndex = 325;
-            this.textBox62.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S3_Tot.BackColor = System.Drawing.Color.White;
+            this._S3_Tot.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S3_Tot.Location = new System.Drawing.Point(365, 703);
+            this._S3_Tot.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S3_Tot.Name = "_S3_Tot";
+            this._S3_Tot.ReadOnly = true;
+            this._S3_Tot.Size = new System.Drawing.Size(64, 30);
+            this._S3_Tot.TabIndex = 325;
+            this._S3_Tot.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox63
+            // _S4_Tot
             // 
-            this.textBox63.BackColor = System.Drawing.Color.White;
-            this.textBox63.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox63.Location = new System.Drawing.Point(468, 703);
-            this.textBox63.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox63.Name = "textBox63";
-            this.textBox63.ReadOnly = true;
-            this.textBox63.Size = new System.Drawing.Size(64, 30);
-            this.textBox63.TabIndex = 324;
-            this.textBox63.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S4_Tot.BackColor = System.Drawing.Color.White;
+            this._S4_Tot.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S4_Tot.Location = new System.Drawing.Point(468, 703);
+            this._S4_Tot.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S4_Tot.Name = "_S4_Tot";
+            this._S4_Tot.ReadOnly = true;
+            this._S4_Tot.Size = new System.Drawing.Size(64, 30);
+            this._S4_Tot.TabIndex = 324;
+            this._S4_Tot.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox64
+            // _S1_Tot
             // 
-            this.textBox64.BackColor = System.Drawing.Color.White;
-            this.textBox64.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox64.Location = new System.Drawing.Point(144, 706);
-            this.textBox64.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox64.Name = "textBox64";
-            this.textBox64.ReadOnly = true;
-            this.textBox64.Size = new System.Drawing.Size(64, 30);
-            this.textBox64.TabIndex = 323;
-            this.textBox64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S1_Tot.BackColor = System.Drawing.Color.White;
+            this._S1_Tot.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S1_Tot.Location = new System.Drawing.Point(144, 706);
+            this._S1_Tot.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S1_Tot.Name = "_S1_Tot";
+            this._S1_Tot.ReadOnly = true;
+            this._S1_Tot.Size = new System.Drawing.Size(64, 30);
+            this._S1_Tot.TabIndex = 323;
+            this._S1_Tot.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label6
             // 
@@ -212,53 +213,53 @@
             this.label6.TabIndex = 322;
             this.label6.Text = "Subtotaal:";
             // 
-            // textBox51
+            // _S2_Sub2
             // 
-            this.textBox51.BackColor = System.Drawing.Color.White;
-            this.textBox51.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox51.Location = new System.Drawing.Point(254, 667);
-            this.textBox51.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox51.Name = "textBox51";
-            this.textBox51.ReadOnly = true;
-            this.textBox51.Size = new System.Drawing.Size(64, 30);
-            this.textBox51.TabIndex = 321;
-            this.textBox51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S2_Sub2.BackColor = System.Drawing.Color.White;
+            this._S2_Sub2.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S2_Sub2.Location = new System.Drawing.Point(254, 667);
+            this._S2_Sub2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S2_Sub2.Name = "_S2_Sub2";
+            this._S2_Sub2.ReadOnly = true;
+            this._S2_Sub2.Size = new System.Drawing.Size(64, 30);
+            this._S2_Sub2.TabIndex = 321;
+            this._S2_Sub2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox52
+            // _S3_Sub2
             // 
-            this.textBox52.BackColor = System.Drawing.Color.White;
-            this.textBox52.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox52.Location = new System.Drawing.Point(365, 667);
-            this.textBox52.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox52.Name = "textBox52";
-            this.textBox52.ReadOnly = true;
-            this.textBox52.Size = new System.Drawing.Size(64, 30);
-            this.textBox52.TabIndex = 320;
-            this.textBox52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S3_Sub2.BackColor = System.Drawing.Color.White;
+            this._S3_Sub2.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S3_Sub2.Location = new System.Drawing.Point(365, 667);
+            this._S3_Sub2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S3_Sub2.Name = "_S3_Sub2";
+            this._S3_Sub2.ReadOnly = true;
+            this._S3_Sub2.Size = new System.Drawing.Size(64, 30);
+            this._S3_Sub2.TabIndex = 320;
+            this._S3_Sub2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox53
+            // _S4_Sub2
             // 
-            this.textBox53.BackColor = System.Drawing.Color.White;
-            this.textBox53.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox53.Location = new System.Drawing.Point(468, 667);
-            this.textBox53.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox53.Name = "textBox53";
-            this.textBox53.ReadOnly = true;
-            this.textBox53.Size = new System.Drawing.Size(64, 30);
-            this.textBox53.TabIndex = 319;
-            this.textBox53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S4_Sub2.BackColor = System.Drawing.Color.White;
+            this._S4_Sub2.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S4_Sub2.Location = new System.Drawing.Point(468, 667);
+            this._S4_Sub2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S4_Sub2.Name = "_S4_Sub2";
+            this._S4_Sub2.ReadOnly = true;
+            this._S4_Sub2.Size = new System.Drawing.Size(64, 30);
+            this._S4_Sub2.TabIndex = 319;
+            this._S4_Sub2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox54
+            // _S1_Sub2
             // 
-            this.textBox54.BackColor = System.Drawing.Color.White;
-            this.textBox54.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox54.Location = new System.Drawing.Point(144, 670);
-            this.textBox54.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox54.Name = "textBox54";
-            this.textBox54.ReadOnly = true;
-            this.textBox54.Size = new System.Drawing.Size(64, 30);
-            this.textBox54.TabIndex = 318;
-            this.textBox54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S1_Sub2.BackColor = System.Drawing.Color.White;
+            this._S1_Sub2.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S1_Sub2.Location = new System.Drawing.Point(144, 670);
+            this._S1_Sub2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S1_Sub2.Name = "_S1_Sub2";
+            this._S1_Sub2.ReadOnly = true;
+            this._S1_Sub2.Size = new System.Drawing.Size(64, 30);
+            this._S1_Sub2.TabIndex = 318;
+            this._S1_Sub2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // _S2_Sub
             // 
@@ -308,341 +309,341 @@
             this._S1_Sub.TabIndex = 314;
             this._S1_Sub.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox45
+            // _S2_13
             // 
-            this.textBox45.BackColor = System.Drawing.Color.White;
-            this.textBox45.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox45.Location = new System.Drawing.Point(254, 633);
-            this.textBox45.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.ReadOnly = true;
-            this.textBox45.Size = new System.Drawing.Size(64, 30);
-            this.textBox45.TabIndex = 313;
-            this.textBox45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S2_13.BackColor = System.Drawing.Color.White;
+            this._S2_13.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S2_13.Location = new System.Drawing.Point(254, 633);
+            this._S2_13.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S2_13.Name = "_S2_13";
+            this._S2_13.ReadOnly = true;
+            this._S2_13.Size = new System.Drawing.Size(64, 30);
+            this._S2_13.TabIndex = 313;
+            this._S2_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox46
+            // _S3_13
             // 
-            this.textBox46.BackColor = System.Drawing.Color.White;
-            this.textBox46.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox46.Location = new System.Drawing.Point(365, 633);
-            this.textBox46.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox46.Name = "textBox46";
-            this.textBox46.ReadOnly = true;
-            this.textBox46.Size = new System.Drawing.Size(64, 30);
-            this.textBox46.TabIndex = 312;
-            this.textBox46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S3_13.BackColor = System.Drawing.Color.White;
+            this._S3_13.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S3_13.Location = new System.Drawing.Point(365, 633);
+            this._S3_13.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S3_13.Name = "_S3_13";
+            this._S3_13.ReadOnly = true;
+            this._S3_13.Size = new System.Drawing.Size(64, 30);
+            this._S3_13.TabIndex = 312;
+            this._S3_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox47
+            // _S4_13
             // 
-            this.textBox47.BackColor = System.Drawing.Color.White;
-            this.textBox47.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox47.Location = new System.Drawing.Point(468, 633);
-            this.textBox47.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox47.Name = "textBox47";
-            this.textBox47.ReadOnly = true;
-            this.textBox47.Size = new System.Drawing.Size(64, 30);
-            this.textBox47.TabIndex = 311;
-            this.textBox47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S4_13.BackColor = System.Drawing.Color.White;
+            this._S4_13.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S4_13.Location = new System.Drawing.Point(468, 633);
+            this._S4_13.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S4_13.Name = "_S4_13";
+            this._S4_13.ReadOnly = true;
+            this._S4_13.Size = new System.Drawing.Size(64, 30);
+            this._S4_13.TabIndex = 311;
+            this._S4_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox48
+            // _S1_13
             // 
-            this.textBox48.BackColor = System.Drawing.Color.White;
-            this.textBox48.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox48.Location = new System.Drawing.Point(144, 634);
-            this.textBox48.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox48.Name = "textBox48";
-            this.textBox48.ReadOnly = true;
-            this.textBox48.Size = new System.Drawing.Size(64, 30);
-            this.textBox48.TabIndex = 310;
-            this.textBox48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S1_13.BackColor = System.Drawing.Color.White;
+            this._S1_13.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S1_13.Location = new System.Drawing.Point(144, 634);
+            this._S1_13.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S1_13.Name = "_S1_13";
+            this._S1_13.ReadOnly = true;
+            this._S1_13.Size = new System.Drawing.Size(64, 30);
+            this._S1_13.TabIndex = 310;
+            this._S1_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox4
+            // _S2_9
             // 
-            this.textBox4.BackColor = System.Drawing.Color.White;
-            this.textBox4.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(254, 480);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(64, 30);
-            this.textBox4.TabIndex = 309;
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S2_9.BackColor = System.Drawing.Color.White;
+            this._S2_9.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S2_9.Location = new System.Drawing.Point(254, 480);
+            this._S2_9.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S2_9.Name = "_S2_9";
+            this._S2_9.ReadOnly = true;
+            this._S2_9.Size = new System.Drawing.Size(64, 30);
+            this._S2_9.TabIndex = 309;
+            this._S2_9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox5
+            // _S2_10
             // 
-            this.textBox5.BackColor = System.Drawing.Color.White;
-            this.textBox5.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(254, 519);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(64, 30);
-            this.textBox5.TabIndex = 308;
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S2_10.BackColor = System.Drawing.Color.White;
+            this._S2_10.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S2_10.Location = new System.Drawing.Point(254, 519);
+            this._S2_10.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S2_10.Name = "_S2_10";
+            this._S2_10.ReadOnly = true;
+            this._S2_10.Size = new System.Drawing.Size(64, 30);
+            this._S2_10.TabIndex = 308;
+            this._S2_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox6
+            // _S2_11
             // 
-            this.textBox6.BackColor = System.Drawing.Color.White;
-            this.textBox6.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(254, 556);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(64, 30);
-            this.textBox6.TabIndex = 307;
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S2_11.BackColor = System.Drawing.Color.White;
+            this._S2_11.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S2_11.Location = new System.Drawing.Point(254, 556);
+            this._S2_11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S2_11.Name = "_S2_11";
+            this._S2_11.ReadOnly = true;
+            this._S2_11.Size = new System.Drawing.Size(64, 30);
+            this._S2_11.TabIndex = 307;
+            this._S2_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox7
+            // _S2_12
             // 
-            this.textBox7.BackColor = System.Drawing.Color.White;
-            this.textBox7.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(254, 597);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.ReadOnly = true;
-            this.textBox7.Size = new System.Drawing.Size(64, 30);
-            this.textBox7.TabIndex = 306;
-            this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S2_12.BackColor = System.Drawing.Color.White;
+            this._S2_12.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S2_12.Location = new System.Drawing.Point(254, 597);
+            this._S2_12.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S2_12.Name = "_S2_12";
+            this._S2_12.ReadOnly = true;
+            this._S2_12.Size = new System.Drawing.Size(64, 30);
+            this._S2_12.TabIndex = 306;
+            this._S2_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox9
+            // _S2_8
             // 
-            this.textBox9.BackColor = System.Drawing.Color.White;
-            this.textBox9.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(254, 443);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.ReadOnly = true;
-            this.textBox9.Size = new System.Drawing.Size(64, 30);
-            this.textBox9.TabIndex = 305;
-            this.textBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S2_8.BackColor = System.Drawing.Color.White;
+            this._S2_8.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S2_8.Location = new System.Drawing.Point(254, 443);
+            this._S2_8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S2_8.Name = "_S2_8";
+            this._S2_8.ReadOnly = true;
+            this._S2_8.Size = new System.Drawing.Size(64, 30);
+            this._S2_8.TabIndex = 305;
+            this._S2_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox10
+            // _S2_7
             // 
-            this.textBox10.BackColor = System.Drawing.Color.White;
-            this.textBox10.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(254, 404);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.ReadOnly = true;
-            this.textBox10.Size = new System.Drawing.Size(64, 30);
-            this.textBox10.TabIndex = 304;
-            this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S2_7.BackColor = System.Drawing.Color.White;
+            this._S2_7.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S2_7.Location = new System.Drawing.Point(254, 404);
+            this._S2_7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S2_7.Name = "_S2_7";
+            this._S2_7.ReadOnly = true;
+            this._S2_7.Size = new System.Drawing.Size(64, 30);
+            this._S2_7.TabIndex = 304;
+            this._S2_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox27
+            // _S3_9
             // 
-            this.textBox27.BackColor = System.Drawing.Color.White;
-            this.textBox27.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox27.Location = new System.Drawing.Point(365, 480);
-            this.textBox27.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.ReadOnly = true;
-            this.textBox27.Size = new System.Drawing.Size(64, 30);
-            this.textBox27.TabIndex = 303;
-            this.textBox27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S3_9.BackColor = System.Drawing.Color.White;
+            this._S3_9.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S3_9.Location = new System.Drawing.Point(365, 480);
+            this._S3_9.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S3_9.Name = "_S3_9";
+            this._S3_9.ReadOnly = true;
+            this._S3_9.Size = new System.Drawing.Size(64, 30);
+            this._S3_9.TabIndex = 303;
+            this._S3_9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox28
+            // _S3_10
             // 
-            this.textBox28.BackColor = System.Drawing.Color.White;
-            this.textBox28.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox28.Location = new System.Drawing.Point(365, 519);
-            this.textBox28.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.ReadOnly = true;
-            this.textBox28.Size = new System.Drawing.Size(64, 30);
-            this.textBox28.TabIndex = 302;
-            this.textBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S3_10.BackColor = System.Drawing.Color.White;
+            this._S3_10.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S3_10.Location = new System.Drawing.Point(365, 519);
+            this._S3_10.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S3_10.Name = "_S3_10";
+            this._S3_10.ReadOnly = true;
+            this._S3_10.Size = new System.Drawing.Size(64, 30);
+            this._S3_10.TabIndex = 302;
+            this._S3_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox29
+            // _S3_11
             // 
-            this.textBox29.BackColor = System.Drawing.Color.White;
-            this.textBox29.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox29.Location = new System.Drawing.Point(365, 556);
-            this.textBox29.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.ReadOnly = true;
-            this.textBox29.Size = new System.Drawing.Size(64, 30);
-            this.textBox29.TabIndex = 301;
-            this.textBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S3_11.BackColor = System.Drawing.Color.White;
+            this._S3_11.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S3_11.Location = new System.Drawing.Point(365, 556);
+            this._S3_11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S3_11.Name = "_S3_11";
+            this._S3_11.ReadOnly = true;
+            this._S3_11.Size = new System.Drawing.Size(64, 30);
+            this._S3_11.TabIndex = 301;
+            this._S3_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox30
+            // _S3_12
             // 
-            this.textBox30.BackColor = System.Drawing.Color.White;
-            this.textBox30.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox30.Location = new System.Drawing.Point(365, 597);
-            this.textBox30.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.ReadOnly = true;
-            this.textBox30.Size = new System.Drawing.Size(64, 30);
-            this.textBox30.TabIndex = 300;
-            this.textBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S3_12.BackColor = System.Drawing.Color.White;
+            this._S3_12.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S3_12.Location = new System.Drawing.Point(365, 597);
+            this._S3_12.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S3_12.Name = "_S3_12";
+            this._S3_12.ReadOnly = true;
+            this._S3_12.Size = new System.Drawing.Size(64, 30);
+            this._S3_12.TabIndex = 300;
+            this._S3_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox31
+            // _S3_8
             // 
-            this.textBox31.BackColor = System.Drawing.Color.White;
-            this.textBox31.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox31.Location = new System.Drawing.Point(365, 443);
-            this.textBox31.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.ReadOnly = true;
-            this.textBox31.Size = new System.Drawing.Size(64, 30);
-            this.textBox31.TabIndex = 299;
-            this.textBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S3_8.BackColor = System.Drawing.Color.White;
+            this._S3_8.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S3_8.Location = new System.Drawing.Point(365, 443);
+            this._S3_8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S3_8.Name = "_S3_8";
+            this._S3_8.ReadOnly = true;
+            this._S3_8.Size = new System.Drawing.Size(64, 30);
+            this._S3_8.TabIndex = 299;
+            this._S3_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox32
+            // _S3_7
             // 
-            this.textBox32.BackColor = System.Drawing.Color.White;
-            this.textBox32.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox32.Location = new System.Drawing.Point(365, 404);
-            this.textBox32.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.ReadOnly = true;
-            this.textBox32.Size = new System.Drawing.Size(64, 30);
-            this.textBox32.TabIndex = 298;
-            this.textBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S3_7.BackColor = System.Drawing.Color.White;
+            this._S3_7.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S3_7.Location = new System.Drawing.Point(365, 404);
+            this._S3_7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S3_7.Name = "_S3_7";
+            this._S3_7.ReadOnly = true;
+            this._S3_7.Size = new System.Drawing.Size(64, 30);
+            this._S3_7.TabIndex = 298;
+            this._S3_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox33
+            // _S4_9
             // 
-            this.textBox33.BackColor = System.Drawing.Color.White;
-            this.textBox33.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox33.Location = new System.Drawing.Point(468, 480);
-            this.textBox33.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.ReadOnly = true;
-            this.textBox33.Size = new System.Drawing.Size(64, 30);
-            this.textBox33.TabIndex = 297;
-            this.textBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S4_9.BackColor = System.Drawing.Color.White;
+            this._S4_9.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S4_9.Location = new System.Drawing.Point(468, 480);
+            this._S4_9.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S4_9.Name = "_S4_9";
+            this._S4_9.ReadOnly = true;
+            this._S4_9.Size = new System.Drawing.Size(64, 30);
+            this._S4_9.TabIndex = 297;
+            this._S4_9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox34
+            // _S4_10
             // 
-            this.textBox34.BackColor = System.Drawing.Color.White;
-            this.textBox34.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox34.Location = new System.Drawing.Point(468, 519);
-            this.textBox34.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.ReadOnly = true;
-            this.textBox34.Size = new System.Drawing.Size(64, 30);
-            this.textBox34.TabIndex = 296;
-            this.textBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S4_10.BackColor = System.Drawing.Color.White;
+            this._S4_10.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S4_10.Location = new System.Drawing.Point(468, 519);
+            this._S4_10.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S4_10.Name = "_S4_10";
+            this._S4_10.ReadOnly = true;
+            this._S4_10.Size = new System.Drawing.Size(64, 30);
+            this._S4_10.TabIndex = 296;
+            this._S4_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox35
+            // _S4_11
             // 
-            this.textBox35.BackColor = System.Drawing.Color.White;
-            this.textBox35.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox35.Location = new System.Drawing.Point(468, 556);
-            this.textBox35.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.ReadOnly = true;
-            this.textBox35.Size = new System.Drawing.Size(64, 30);
-            this.textBox35.TabIndex = 295;
-            this.textBox35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S4_11.BackColor = System.Drawing.Color.White;
+            this._S4_11.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S4_11.Location = new System.Drawing.Point(468, 556);
+            this._S4_11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S4_11.Name = "_S4_11";
+            this._S4_11.ReadOnly = true;
+            this._S4_11.Size = new System.Drawing.Size(64, 30);
+            this._S4_11.TabIndex = 295;
+            this._S4_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox36
+            // _S4_12
             // 
-            this.textBox36.BackColor = System.Drawing.Color.White;
-            this.textBox36.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox36.Location = new System.Drawing.Point(468, 597);
-            this.textBox36.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.ReadOnly = true;
-            this.textBox36.Size = new System.Drawing.Size(64, 30);
-            this.textBox36.TabIndex = 294;
-            this.textBox36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S4_12.BackColor = System.Drawing.Color.White;
+            this._S4_12.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S4_12.Location = new System.Drawing.Point(468, 597);
+            this._S4_12.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S4_12.Name = "_S4_12";
+            this._S4_12.ReadOnly = true;
+            this._S4_12.Size = new System.Drawing.Size(64, 30);
+            this._S4_12.TabIndex = 294;
+            this._S4_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox37
+            // _S4_8
             // 
-            this.textBox37.BackColor = System.Drawing.Color.White;
-            this.textBox37.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox37.Location = new System.Drawing.Point(468, 443);
-            this.textBox37.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.ReadOnly = true;
-            this.textBox37.Size = new System.Drawing.Size(64, 30);
-            this.textBox37.TabIndex = 293;
-            this.textBox37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S4_8.BackColor = System.Drawing.Color.White;
+            this._S4_8.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S4_8.Location = new System.Drawing.Point(468, 443);
+            this._S4_8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S4_8.Name = "_S4_8";
+            this._S4_8.ReadOnly = true;
+            this._S4_8.Size = new System.Drawing.Size(64, 30);
+            this._S4_8.TabIndex = 293;
+            this._S4_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox38
+            // _S4_7
             // 
-            this.textBox38.BackColor = System.Drawing.Color.White;
-            this.textBox38.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox38.Location = new System.Drawing.Point(468, 404);
-            this.textBox38.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.ReadOnly = true;
-            this.textBox38.Size = new System.Drawing.Size(64, 30);
-            this.textBox38.TabIndex = 292;
-            this.textBox38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S4_7.BackColor = System.Drawing.Color.White;
+            this._S4_7.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S4_7.Location = new System.Drawing.Point(468, 404);
+            this._S4_7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S4_7.Name = "_S4_7";
+            this._S4_7.ReadOnly = true;
+            this._S4_7.Size = new System.Drawing.Size(64, 30);
+            this._S4_7.TabIndex = 292;
+            this._S4_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox39
+            // _S1_9
             // 
-            this.textBox39.BackColor = System.Drawing.Color.White;
-            this.textBox39.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox39.Location = new System.Drawing.Point(144, 482);
-            this.textBox39.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.ReadOnly = true;
-            this.textBox39.Size = new System.Drawing.Size(64, 30);
-            this.textBox39.TabIndex = 291;
-            this.textBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S1_9.BackColor = System.Drawing.Color.White;
+            this._S1_9.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S1_9.Location = new System.Drawing.Point(144, 482);
+            this._S1_9.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S1_9.Name = "_S1_9";
+            this._S1_9.ReadOnly = true;
+            this._S1_9.Size = new System.Drawing.Size(64, 30);
+            this._S1_9.TabIndex = 291;
+            this._S1_9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox40
+            // _S1_10
             // 
-            this.textBox40.BackColor = System.Drawing.Color.White;
-            this.textBox40.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox40.Location = new System.Drawing.Point(144, 520);
-            this.textBox40.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.ReadOnly = true;
-            this.textBox40.Size = new System.Drawing.Size(64, 30);
-            this.textBox40.TabIndex = 290;
-            this.textBox40.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S1_10.BackColor = System.Drawing.Color.White;
+            this._S1_10.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S1_10.Location = new System.Drawing.Point(144, 520);
+            this._S1_10.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S1_10.Name = "_S1_10";
+            this._S1_10.ReadOnly = true;
+            this._S1_10.Size = new System.Drawing.Size(64, 30);
+            this._S1_10.TabIndex = 290;
+            this._S1_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox41
+            // _S1_11
             // 
-            this.textBox41.BackColor = System.Drawing.Color.White;
-            this.textBox41.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox41.Location = new System.Drawing.Point(144, 558);
-            this.textBox41.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.ReadOnly = true;
-            this.textBox41.Size = new System.Drawing.Size(64, 30);
-            this.textBox41.TabIndex = 289;
-            this.textBox41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S1_11.BackColor = System.Drawing.Color.White;
+            this._S1_11.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S1_11.Location = new System.Drawing.Point(144, 558);
+            this._S1_11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S1_11.Name = "_S1_11";
+            this._S1_11.ReadOnly = true;
+            this._S1_11.Size = new System.Drawing.Size(64, 30);
+            this._S1_11.TabIndex = 289;
+            this._S1_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox42
+            // _S1_12
             // 
-            this.textBox42.BackColor = System.Drawing.Color.White;
-            this.textBox42.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox42.Location = new System.Drawing.Point(144, 598);
-            this.textBox42.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox42.Name = "textBox42";
-            this.textBox42.ReadOnly = true;
-            this.textBox42.Size = new System.Drawing.Size(64, 30);
-            this.textBox42.TabIndex = 288;
-            this.textBox42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S1_12.BackColor = System.Drawing.Color.White;
+            this._S1_12.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S1_12.Location = new System.Drawing.Point(144, 598);
+            this._S1_12.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S1_12.Name = "_S1_12";
+            this._S1_12.ReadOnly = true;
+            this._S1_12.Size = new System.Drawing.Size(64, 30);
+            this._S1_12.TabIndex = 288;
+            this._S1_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox43
+            // _S1_8
             // 
-            this.textBox43.BackColor = System.Drawing.Color.White;
-            this.textBox43.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox43.Location = new System.Drawing.Point(144, 445);
-            this.textBox43.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox43.Name = "textBox43";
-            this.textBox43.ReadOnly = true;
-            this.textBox43.Size = new System.Drawing.Size(64, 30);
-            this.textBox43.TabIndex = 287;
-            this.textBox43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S1_8.BackColor = System.Drawing.Color.White;
+            this._S1_8.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S1_8.Location = new System.Drawing.Point(144, 445);
+            this._S1_8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S1_8.Name = "_S1_8";
+            this._S1_8.ReadOnly = true;
+            this._S1_8.Size = new System.Drawing.Size(64, 30);
+            this._S1_8.TabIndex = 287;
+            this._S1_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox44
+            // _S1_7
             // 
-            this.textBox44.BackColor = System.Drawing.Color.White;
-            this.textBox44.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox44.Location = new System.Drawing.Point(144, 407);
-            this.textBox44.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.ReadOnly = true;
-            this.textBox44.Size = new System.Drawing.Size(64, 30);
-            this.textBox44.TabIndex = 286;
-            this.textBox44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this._S1_7.BackColor = System.Drawing.Color.White;
+            this._S1_7.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._S1_7.Location = new System.Drawing.Point(144, 407);
+            this._S1_7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this._S1_7.Name = "_S1_7";
+            this._S1_7.ReadOnly = true;
+            this._S1_7.Size = new System.Drawing.Size(64, 30);
+            this._S1_7.TabIndex = 286;
+            this._S1_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // _S2_3
             // 
@@ -1055,82 +1056,82 @@
             this.button38.TabIndex = 250;
             this.button38.UseVisualStyleBackColor = true;
             // 
-            // button37
+            // Activate_Yahtzee
             // 
-            this.button37.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button37.Location = new System.Drawing.Point(24, 633);
-            this.button37.Margin = new System.Windows.Forms.Padding(4);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(100, 30);
-            this.button37.TabIndex = 249;
-            this.button37.Text = "Yahtzee";
-            this.button37.UseVisualStyleBackColor = true;
+            this.Activate_Yahtzee.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Activate_Yahtzee.Location = new System.Drawing.Point(24, 633);
+            this.Activate_Yahtzee.Margin = new System.Windows.Forms.Padding(4);
+            this.Activate_Yahtzee.Name = "Activate_Yahtzee";
+            this.Activate_Yahtzee.Size = new System.Drawing.Size(100, 30);
+            this.Activate_Yahtzee.TabIndex = 249;
+            this.Activate_Yahtzee.Text = "Yahtzee";
+            this.Activate_Yahtzee.UseVisualStyleBackColor = true;
             // 
-            // button30
+            // Activate_Carré
             // 
-            this.button30.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button30.Location = new System.Drawing.Point(24, 443);
-            this.button30.Margin = new System.Windows.Forms.Padding(4);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(100, 30);
-            this.button30.TabIndex = 248;
-            this.button30.Text = "Carré";
-            this.button30.UseVisualStyleBackColor = true;
+            this.Activate_Carré.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Activate_Carré.Location = new System.Drawing.Point(24, 443);
+            this.Activate_Carré.Margin = new System.Windows.Forms.Padding(4);
+            this.Activate_Carré.Name = "Activate_Carré";
+            this.Activate_Carré.Size = new System.Drawing.Size(100, 30);
+            this.Activate_Carré.TabIndex = 248;
+            this.Activate_Carré.Text = "Carré";
+            this.Activate_Carré.UseVisualStyleBackColor = true;
             // 
-            // button31
+            // Activate_FullHouse
             // 
-            this.button31.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button31.Location = new System.Drawing.Point(24, 480);
-            this.button31.Margin = new System.Windows.Forms.Padding(4);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(100, 30);
-            this.button31.TabIndex = 247;
-            this.button31.Text = "Full House";
-            this.button31.UseVisualStyleBackColor = true;
+            this.Activate_FullHouse.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Activate_FullHouse.Location = new System.Drawing.Point(24, 480);
+            this.Activate_FullHouse.Margin = new System.Windows.Forms.Padding(4);
+            this.Activate_FullHouse.Name = "Activate_FullHouse";
+            this.Activate_FullHouse.Size = new System.Drawing.Size(100, 30);
+            this.Activate_FullHouse.TabIndex = 247;
+            this.Activate_FullHouse.Text = "Full House";
+            this.Activate_FullHouse.UseVisualStyleBackColor = true;
             // 
-            // button32
+            // Activate_KleineStraat
             // 
-            this.button32.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button32.Location = new System.Drawing.Point(24, 519);
-            this.button32.Margin = new System.Windows.Forms.Padding(4);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(100, 30);
-            this.button32.TabIndex = 246;
-            this.button32.Text = "Kl. Straat";
-            this.button32.UseVisualStyleBackColor = true;
+            this.Activate_KleineStraat.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Activate_KleineStraat.Location = new System.Drawing.Point(24, 519);
+            this.Activate_KleineStraat.Margin = new System.Windows.Forms.Padding(4);
+            this.Activate_KleineStraat.Name = "Activate_KleineStraat";
+            this.Activate_KleineStraat.Size = new System.Drawing.Size(100, 30);
+            this.Activate_KleineStraat.TabIndex = 246;
+            this.Activate_KleineStraat.Text = "Kl. Straat";
+            this.Activate_KleineStraat.UseVisualStyleBackColor = true;
             // 
-            // button33
+            // Activate_GroteStraat
             // 
-            this.button33.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button33.Location = new System.Drawing.Point(24, 556);
-            this.button33.Margin = new System.Windows.Forms.Padding(4);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(100, 30);
-            this.button33.TabIndex = 245;
-            this.button33.Text = "Gr. Straat";
-            this.button33.UseVisualStyleBackColor = true;
+            this.Activate_GroteStraat.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Activate_GroteStraat.Location = new System.Drawing.Point(24, 556);
+            this.Activate_GroteStraat.Margin = new System.Windows.Forms.Padding(4);
+            this.Activate_GroteStraat.Name = "Activate_GroteStraat";
+            this.Activate_GroteStraat.Size = new System.Drawing.Size(100, 30);
+            this.Activate_GroteStraat.TabIndex = 245;
+            this.Activate_GroteStraat.Text = "Gr. Straat";
+            this.Activate_GroteStraat.UseVisualStyleBackColor = true;
             // 
-            // button35
+            // Activate_Chance
             // 
-            this.button35.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button35.Location = new System.Drawing.Point(24, 594);
-            this.button35.Margin = new System.Windows.Forms.Padding(4);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(100, 30);
-            this.button35.TabIndex = 244;
-            this.button35.Text = "Chance";
-            this.button35.UseVisualStyleBackColor = true;
+            this.Activate_Chance.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Activate_Chance.Location = new System.Drawing.Point(24, 594);
+            this.Activate_Chance.Margin = new System.Windows.Forms.Padding(4);
+            this.Activate_Chance.Name = "Activate_Chance";
+            this.Activate_Chance.Size = new System.Drawing.Size(100, 30);
+            this.Activate_Chance.TabIndex = 244;
+            this.Activate_Chance.Text = "Chance";
+            this.Activate_Chance.UseVisualStyleBackColor = true;
             // 
-            // button36
+            // Activate_TOAK
             // 
-            this.button36.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button36.Location = new System.Drawing.Point(24, 404);
-            this.button36.Margin = new System.Windows.Forms.Padding(4);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(100, 30);
-            this.button36.TabIndex = 243;
-            this.button36.Text = "ToaK";
-            this.button36.UseVisualStyleBackColor = true;
+            this.Activate_TOAK.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Activate_TOAK.Location = new System.Drawing.Point(24, 404);
+            this.Activate_TOAK.Margin = new System.Windows.Forms.Padding(4);
+            this.Activate_TOAK.Name = "Activate_TOAK";
+            this.Activate_TOAK.Size = new System.Drawing.Size(100, 30);
+            this.Activate_TOAK.TabIndex = 243;
+            this.Activate_TOAK.Text = "ToaK";
+            this.Activate_TOAK.UseVisualStyleBackColor = true;
             // 
             // Activate_Two
             // 
@@ -1142,8 +1143,6 @@
             this.Activate_Two.TabIndex = 242;
             this.Activate_Two.Text = "Twee";
             this.Activate_Two.UseVisualStyleBackColor = true;
-            this.Activate_Two.Click += new System.EventHandler(this.button29_Click);
-            this.Activate_Two.Click += new System.EventHandler(this.update_Click);
             // 
             // Activate_Three
             // 
@@ -1155,8 +1154,6 @@
             this.Activate_Three.TabIndex = 241;
             this.Activate_Three.Text = "Drie";
             this.Activate_Three.UseVisualStyleBackColor = true;
-            this.Activate_Three.Click += new System.EventHandler(this.button4_Click);
-            this.Activate_Three.Click += new System.EventHandler(this.update_Click);
             // 
             // Activate_Four
             // 
@@ -1168,8 +1165,6 @@
             this.Activate_Four.TabIndex = 240;
             this.Activate_Four.Text = "Vier";
             this.Activate_Four.UseVisualStyleBackColor = true;
-            this.Activate_Four.Click += new System.EventHandler(this.button3_Click);
-            this.Activate_Four.Click += new System.EventHandler(this.update_Click);
             // 
             // Activate_Five
             // 
@@ -1181,8 +1176,6 @@
             this.Activate_Five.TabIndex = 239;
             this.Activate_Five.Text = "Vijf";
             this.Activate_Five.UseVisualStyleBackColor = true;
-            this.Activate_Five.Click += new System.EventHandler(this.button2_Click);
-            this.Activate_Five.Click += new System.EventHandler(this.update_Click);
             // 
             // Activate_Six
             // 
@@ -1194,8 +1187,6 @@
             this.Activate_Six.TabIndex = 238;
             this.Activate_Six.Text = "Zes";
             this.Activate_Six.UseVisualStyleBackColor = true;
-            this.Activate_Six.Click += new System.EventHandler(this.button1_Click);
-            this.Activate_Six.Click += new System.EventHandler(this.update_Click);
             // 
             // label2
             // 
@@ -1295,13 +1286,20 @@
             this.Activate_One.TabIndex = 229;
             this.Activate_One.Text = "Een";
             this.Activate_One.UseVisualStyleBackColor = true;
-            this.Activate_One.Click += new System.EventHandler(this.button34_Click);
-            this.Activate_One.Click += new System.EventHandler(this.update_Click);
             // 
             // DobbelsteenTimer
             // 
             this.DobbelsteenTimer.Interval = 75;
             this.DobbelsteenTimer.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(328, 19);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.TabIndex = 329;
+            this.label5.Text = "label5";
             // 
             // Game
             // 
@@ -1310,49 +1308,50 @@
             this.BackgroundImage = global::Yathzee.Properties.Resources.Achtergrond;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(804, 764);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox61);
-            this.Controls.Add(this.textBox62);
-            this.Controls.Add(this.textBox63);
-            this.Controls.Add(this.textBox64);
+            this.Controls.Add(this._S2_Tot);
+            this.Controls.Add(this._S3_Tot);
+            this.Controls.Add(this._S4_Tot);
+            this.Controls.Add(this._S1_Tot);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox51);
-            this.Controls.Add(this.textBox52);
-            this.Controls.Add(this.textBox53);
-            this.Controls.Add(this.textBox54);
+            this.Controls.Add(this._S2_Sub2);
+            this.Controls.Add(this._S3_Sub2);
+            this.Controls.Add(this._S4_Sub2);
+            this.Controls.Add(this._S1_Sub2);
             this.Controls.Add(this._S2_Sub);
             this.Controls.Add(this._S3_Sub);
             this.Controls.Add(this._S4_Sub);
             this.Controls.Add(this._S1_Sub);
-            this.Controls.Add(this.textBox45);
-            this.Controls.Add(this.textBox46);
-            this.Controls.Add(this.textBox47);
-            this.Controls.Add(this.textBox48);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox27);
-            this.Controls.Add(this.textBox28);
-            this.Controls.Add(this.textBox29);
-            this.Controls.Add(this.textBox30);
-            this.Controls.Add(this.textBox31);
-            this.Controls.Add(this.textBox32);
-            this.Controls.Add(this.textBox33);
-            this.Controls.Add(this.textBox34);
-            this.Controls.Add(this.textBox35);
-            this.Controls.Add(this.textBox36);
-            this.Controls.Add(this.textBox37);
-            this.Controls.Add(this.textBox38);
-            this.Controls.Add(this.textBox39);
-            this.Controls.Add(this.textBox40);
-            this.Controls.Add(this.textBox41);
-            this.Controls.Add(this.textBox42);
-            this.Controls.Add(this.textBox43);
-            this.Controls.Add(this.textBox44);
+            this.Controls.Add(this._S2_13);
+            this.Controls.Add(this._S3_13);
+            this.Controls.Add(this._S4_13);
+            this.Controls.Add(this._S1_13);
+            this.Controls.Add(this._S2_9);
+            this.Controls.Add(this._S2_10);
+            this.Controls.Add(this._S2_11);
+            this.Controls.Add(this._S2_12);
+            this.Controls.Add(this._S2_8);
+            this.Controls.Add(this._S2_7);
+            this.Controls.Add(this._S3_9);
+            this.Controls.Add(this._S3_10);
+            this.Controls.Add(this._S3_11);
+            this.Controls.Add(this._S3_12);
+            this.Controls.Add(this._S3_8);
+            this.Controls.Add(this._S3_7);
+            this.Controls.Add(this._S4_9);
+            this.Controls.Add(this._S4_10);
+            this.Controls.Add(this._S4_11);
+            this.Controls.Add(this._S4_12);
+            this.Controls.Add(this._S4_8);
+            this.Controls.Add(this._S4_7);
+            this.Controls.Add(this._S1_9);
+            this.Controls.Add(this._S1_10);
+            this.Controls.Add(this._S1_11);
+            this.Controls.Add(this._S1_12);
+            this.Controls.Add(this._S1_8);
+            this.Controls.Add(this._S1_7);
             this.Controls.Add(this._S2_3);
             this.Controls.Add(this._S2_4);
             this.Controls.Add(this._S2_5);
@@ -1388,13 +1387,13 @@
             this.Controls.Add(this.button65);
             this.Controls.Add(this.button40);
             this.Controls.Add(this.button38);
-            this.Controls.Add(this.button37);
-            this.Controls.Add(this.button30);
-            this.Controls.Add(this.button31);
-            this.Controls.Add(this.button32);
-            this.Controls.Add(this.button33);
-            this.Controls.Add(this.button35);
-            this.Controls.Add(this.button36);
+            this.Controls.Add(this.Activate_Yahtzee);
+            this.Controls.Add(this.Activate_Carré);
+            this.Controls.Add(this.Activate_FullHouse);
+            this.Controls.Add(this.Activate_KleineStraat);
+            this.Controls.Add(this.Activate_GroteStraat);
+            this.Controls.Add(this.Activate_Chance);
+            this.Controls.Add(this.Activate_TOAK);
             this.Controls.Add(this.Activate_Two);
             this.Controls.Add(this.Activate_Three);
             this.Controls.Add(this.Activate_Four);
@@ -1416,7 +1415,6 @@
             this.Name = "Game";
             this.ShowIcon = false;
             this.Text = "Yahtzee";
-            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1426,47 +1424,47 @@
 
         public System.Windows.Forms.Label label8;
         public System.Windows.Forms.Label label7;
-        public System.Windows.Forms.TextBox textBox61;
-        public System.Windows.Forms.TextBox textBox62;
-        public System.Windows.Forms.TextBox textBox63;
-        public System.Windows.Forms.TextBox textBox64;
+        public System.Windows.Forms.TextBox _S2_Tot;
+        public System.Windows.Forms.TextBox _S3_Tot;
+        public System.Windows.Forms.TextBox _S4_Tot;
+        public System.Windows.Forms.TextBox _S1_Tot;
         public System.Windows.Forms.Label label6;
-        public System.Windows.Forms.TextBox textBox51;
-        public System.Windows.Forms.TextBox textBox52;
-        public System.Windows.Forms.TextBox textBox53;
-        public System.Windows.Forms.TextBox textBox54;
+        public System.Windows.Forms.TextBox _S2_Sub2;
+        public System.Windows.Forms.TextBox _S3_Sub2;
+        public System.Windows.Forms.TextBox _S4_Sub2;
+        public System.Windows.Forms.TextBox _S1_Sub2;
         public System.Windows.Forms.TextBox _S2_Sub;
         public System.Windows.Forms.TextBox _S3_Sub;
         public System.Windows.Forms.TextBox _S4_Sub;
         public System.Windows.Forms.TextBox _S1_Sub;
-        public System.Windows.Forms.TextBox textBox45;
-        public System.Windows.Forms.TextBox textBox46;
-        public System.Windows.Forms.TextBox textBox47;
-        public System.Windows.Forms.TextBox textBox48;
-        public System.Windows.Forms.TextBox textBox4;
-        public System.Windows.Forms.TextBox textBox5;
-        public System.Windows.Forms.TextBox textBox6;
-        public System.Windows.Forms.TextBox textBox7;
-        public System.Windows.Forms.TextBox textBox9;
-        public System.Windows.Forms.TextBox textBox10;
-        public System.Windows.Forms.TextBox textBox27;
-        public System.Windows.Forms.TextBox textBox28;
-        public System.Windows.Forms.TextBox textBox29;
-        public System.Windows.Forms.TextBox textBox30;
-        public System.Windows.Forms.TextBox textBox31;
-        public System.Windows.Forms.TextBox textBox32;
-        public System.Windows.Forms.TextBox textBox33;
-        public System.Windows.Forms.TextBox textBox34;
-        public System.Windows.Forms.TextBox textBox35;
-        public System.Windows.Forms.TextBox textBox36;
-        public System.Windows.Forms.TextBox textBox37;
-        public System.Windows.Forms.TextBox textBox38;
-        public System.Windows.Forms.TextBox textBox39;
-        public System.Windows.Forms.TextBox textBox40;
-        public System.Windows.Forms.TextBox textBox41;
-        public System.Windows.Forms.TextBox textBox42;
-        public System.Windows.Forms.TextBox textBox43;
-        public System.Windows.Forms.TextBox textBox44;
+        public System.Windows.Forms.TextBox _S2_13;
+        public System.Windows.Forms.TextBox _S3_13;
+        public System.Windows.Forms.TextBox _S4_13;
+        public System.Windows.Forms.TextBox _S1_13;
+        public System.Windows.Forms.TextBox _S2_9;
+        public System.Windows.Forms.TextBox _S2_10;
+        public System.Windows.Forms.TextBox _S2_11;
+        public System.Windows.Forms.TextBox _S2_12;
+        public System.Windows.Forms.TextBox _S2_8;
+        public System.Windows.Forms.TextBox _S2_7;
+        public System.Windows.Forms.TextBox _S3_9;
+        public System.Windows.Forms.TextBox _S3_10;
+        public System.Windows.Forms.TextBox _S3_11;
+        public System.Windows.Forms.TextBox _S3_12;
+        public System.Windows.Forms.TextBox _S3_8;
+        public System.Windows.Forms.TextBox _S3_7;
+        public System.Windows.Forms.TextBox _S4_9;
+        public System.Windows.Forms.TextBox _S4_10;
+        public System.Windows.Forms.TextBox _S4_11;
+        public System.Windows.Forms.TextBox _S4_12;
+        public System.Windows.Forms.TextBox _S4_8;
+        public System.Windows.Forms.TextBox _S4_7;
+        public System.Windows.Forms.TextBox _S1_9;
+        public System.Windows.Forms.TextBox _S1_10;
+        public System.Windows.Forms.TextBox _S1_11;
+        public System.Windows.Forms.TextBox _S1_12;
+        public System.Windows.Forms.TextBox _S1_8;
+        public System.Windows.Forms.TextBox _S1_7;
         public System.Windows.Forms.TextBox _S2_3;
         public System.Windows.Forms.TextBox _S2_4;
         public System.Windows.Forms.TextBox _S2_5;
@@ -1502,13 +1500,13 @@
         public System.Windows.Forms.Button button65;
         public System.Windows.Forms.Button button40;
         public System.Windows.Forms.Button button38;
-        public System.Windows.Forms.Button button37;
-        public System.Windows.Forms.Button button30;
-        public System.Windows.Forms.Button button31;
-        public System.Windows.Forms.Button button32;
-        public System.Windows.Forms.Button button33;
-        public System.Windows.Forms.Button button35;
-        public System.Windows.Forms.Button button36;
+        public System.Windows.Forms.Button Activate_Yahtzee;
+        public System.Windows.Forms.Button Activate_Carré;
+        public System.Windows.Forms.Button Activate_FullHouse;
+        public System.Windows.Forms.Button Activate_KleineStraat;
+        public System.Windows.Forms.Button Activate_GroteStraat;
+        public System.Windows.Forms.Button Activate_Chance;
+        public System.Windows.Forms.Button Activate_TOAK;
         public System.Windows.Forms.Button Activate_Two;
         public System.Windows.Forms.Button Activate_Three;
         public System.Windows.Forms.Button Activate_Four;
@@ -1524,5 +1522,6 @@
         public System.Windows.Forms.Label label1;
         public System.Windows.Forms.Button Activate_One;
         private System.Windows.Forms.Timer DobbelsteenTimer;
+        private System.Windows.Forms.Label label5;
     }
 }

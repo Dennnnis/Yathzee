@@ -14,6 +14,7 @@ namespace Yathzee
         private static Random rnd = new Random();
         public static void Randomize(Button[] knoppen, bool[] vast)
         {
+        
             for (int i = 0; i < Dices.Length; i++)
             {
                 if (vast[i]) continue;

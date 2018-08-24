@@ -7,7 +7,6 @@ using System.Windows.Forms;
 
 namespace Yathzee
 {
-
     static class Dice
     {
         public static int[] Dices = {1,1,1,1,1};
@@ -24,13 +23,15 @@ namespace Yathzee
             return good;
         }
 
-        public static bool Match(int[] full)
+        public static bool Range(int l)
         {
-            for (int i = 0; i < Dices.Length; i++)
+            int size = 0;
+            for (int i = 1; i <= 6; i++)
             {
-                if (full[i] != Dices[i]) return false;
+                if (Dices.Contains(i)) size++; else size = 0;
+                if (size >= l) { return true; }
             }
-            return true;
+            return false;
         }
 
         public static void Hide()

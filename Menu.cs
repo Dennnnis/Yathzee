@@ -23,32 +23,33 @@ namespace Yathzee
         {
             if (textBox1.Text != "")
             {
-                Player nw = new Player() { name = textBox1.Text, buttons = new bool[13] };
+                Player nw = new Player() { name = textBox1.Text, buttons = new bool[12] };
                 players.Add(nw);
             }
 
             if (textBox4.Text != "")
             {
-                Player nw = new Player() { name = textBox4.Text, buttons = new bool[13] };
+                Player nw = new Player() { name = textBox4.Text, buttons = new bool[12] };
                 players.Add(nw);
             }
 
             if (textBox5.Text != "")
             {
-                Player nw = new Player() { name = textBox5.Text, buttons = new bool[13] };
+                Player nw = new Player() { name = textBox5.Text, buttons = new bool[12] };
                 players.Add(nw);
             }
 
             if (textBox3.Text != "")
             {
-                Player nw = new Player() { name = textBox3.Text, buttons = new bool[13] };
+                Player nw = new Player() { name = textBox3.Text, buttons = new bool[12] };
                 players.Add(nw);
             }
 
 
-            this.Hide();
+            Hide();
             Form newGame = new Game(players.ToArray());
-            newGame.Show();
+            newGame.ShowDialog();
+            Close();
 
         }
     }

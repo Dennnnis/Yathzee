@@ -14,8 +14,8 @@ namespace Yathzee
     public partial class Game : Form
     {
         //Dice animation
-        private float animatieLengte = 0f;
-        private int   maximaalAantalGooien = 1000;
+        private float animatieLengte = 1.5f;
+        private int   maximaalAantalGooien = 3;
 
         //Variables
         private int[] bonus =       { 50, 50, 50, 50 };
@@ -81,13 +81,13 @@ namespace Yathzee
             playerField[0, 15] = _S1_Tot;  playerField[1, 15] = _S2_Tot;  playerField[2, 15] = _S3_Tot;  playerField[3, 15] = _S4_Tot;
 
             if (players.Length > 0) { label1.Text =  players[0].name; label12.Text = players[0].name; };
-            if (players.Length > 1) { label9.Text =  players[1].name; label4.Text = players[1].name; };
-            if (players.Length > 2) { label11.Text = players[2].name; label2.Text = players[2].name; };
-            if (players.Length > 3) { label10.Text = players[3].name; label3.Text = players[3].name; };
+            if (players.Length > 1) { label9.Text =  players[1].name; label4.Text =  players[1].name; };
+            if (players.Length > 2) { label11.Text = players[2].name; label2.Text =  players[2].name; };
+            if (players.Length > 3) { label10.Text = players[3].name; label3.Text =  players[3].name; };
 
             for (int i = 0; i < players.Length; i++)
             { 
-                for (int j = 0; j < 13; j++)
+                for (int j = 0; j < 12; j++)
                 {
                     players[i].buttons[j] = true;
                 }
@@ -137,6 +137,10 @@ namespace Yathzee
 
         private void update_Click(object sender, EventArgs e) //Update
         {
+            checkBox1.Checked = false; checkBox2.Checked = false;
+            checkBox3.Checked = false; checkBox4.Checked = false;
+            checkBox5.Checked = false;
+
             if (rolling || !thrown) { MessageBox.Show("Je moet eerst gooien!", ">:("); return; }
             thrown = false; throwCount = 0;
 
@@ -152,12 +156,12 @@ namespace Yathzee
             if ($"{sender}".Contains("Text: ToaK"))      {playerField[curPlayer,  7].Text = Dice.CountContains(toak,true) ? $"{Dice.Dices.Sum()}" : "0"; players[curPlayer].buttons[6] = false;}   //Toak
             if ($"{sender}".Contains("Text: Carré"))     {playerField[curPlayer,  8].Text = Dice.CountContains(carr, true) ? $"{Dice.Dices.Sum()}" : "0"; players[curPlayer].buttons[7] = false; } //Carre
             if ($"{sender}".Contains("Text: Full House")){playerField[curPlayer,  9].Text = Dice.CountContains(full, false) ? $"25" : "0"; players[curPlayer].buttons[8] = false; }                //Full house
-            if ($"{sender}".Contains("Text: Kl. Straat")){playerField[curPlayer, 10].Text = Dice.Range(4) ? "30" : "0"; players[curPlayer].buttons[9] = false; }                       //Kleine straat
-            if ($"{sender}".Contains("Text: Gr. Straat")){playerField[curPlayer, 11].Text = Dice.Range(5) ? "40" : "0"; players[curPlayer].buttons[10] = false; }                      //Grote straat
+            if ($"{sender}".Contains("Text: Kl. Straat")){playerField[curPlayer, 10].Text = Dice.Range(4) ? "30" : "0"; players[curPlayer].buttons[9] = false; }                                   //Kleine straat
+            if ($"{sender}".Contains("Text: Gr. Straat")){playerField[curPlayer, 11].Text = Dice.Range(5) ? "40" : "0"; players[curPlayer].buttons[10] = false; }                                  //Grote straat
             if ($"{sender}".Contains("Text: Chance"))    {playerField[curPlayer, 12].Text = $"{Convert.ToInt32(Dice.Dices.Sum())}"; players[curPlayer].buttons[11] = false; }                      //Chance
             if ($"{sender}".Contains("Text: Yahtzee"))   {
                 if (playerField[curPlayer, 13].Text == "") { playerField[curPlayer, 13].Text = "0"; }
-                playerField[curPlayer, 13].Text = Dice.CountContains(yath, false) ? (Convert.ToInt32(playerField[curPlayer, 13].Text) + bonus[curPlayer]).ToString() : (playerField[curPlayer, 13].Text); bonus[curPlayer] = 100;
+                playerField[curPlayer, 13].Text = Dice.CountContains(yath, false) ? (Convert.ToInt32(playerField[curPlayer, 13].Text) + bonus[curPlayer]).ToString() : (playerField[curPlayer, 13].Text); bonus[curPlayer] = 100; //Yathzee
             }
               
             //Calculate total
@@ -180,13 +184,12 @@ namespace Yathzee
             NextPlayer();
 
             //Disable buttons for next player
-            Activate_One.Enabled = players[curPlayer].buttons[0]; Activate_TOAK.Enabled = players[curPlayer].buttons[6];
-            Activate_Two.Enabled = players[curPlayer].buttons[1]; Activate_Carré.Enabled = players[curPlayer].buttons[7];
-            Activate_Three.Enabled = players[curPlayer].buttons[2]; Activate_FullHouse.Enabled = players[curPlayer].buttons[8];
-            Activate_Four.Enabled = players[curPlayer].buttons[3]; Activate_KleineStraat.Enabled = players[curPlayer].buttons[9];
-            Activate_Five.Enabled = players[curPlayer].buttons[4]; Activate_GroteStraat.Enabled = players[curPlayer].buttons[10];
-            Activate_Six.Enabled = players[curPlayer].buttons[5]; Activate_Chance.Enabled = players[curPlayer].buttons[11];
-            Activate_Yahtzee.Enabled = players[curPlayer].buttons[12];
+            Activate_One.Enabled =     players[curPlayer].buttons[0];  Activate_TOAK.Enabled =         players[curPlayer].buttons[6];
+            Activate_Two.Enabled =     players[curPlayer].buttons[1];  Activate_Carré.Enabled =        players[curPlayer].buttons[7];
+            Activate_Three.Enabled =   players[curPlayer].buttons[2];  Activate_FullHouse.Enabled =    players[curPlayer].buttons[8];
+            Activate_Four.Enabled =    players[curPlayer].buttons[3];  Activate_KleineStraat.Enabled = players[curPlayer].buttons[9];
+            Activate_Five.Enabled =    players[curPlayer].buttons[4];  Activate_GroteStraat.Enabled =  players[curPlayer].buttons[10];
+            Activate_Six.Enabled =     players[curPlayer].buttons[5];  Activate_Chance.Enabled =       players[curPlayer].buttons[11];
 
             Dice.Hide();
 

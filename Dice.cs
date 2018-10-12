@@ -22,6 +22,7 @@ namespace Yathzee
             }
             return good;
         }
+        //Comment voor Github Desktop uploaden.
 
         public static bool Range(int l)
         {
